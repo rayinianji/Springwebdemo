@@ -24,7 +24,7 @@ pipeline {
         {
            steps {
                 		 echo 'SCM check out stage'
-                		 sh 'mvn clean install
+                		 sh 'mvn clean install'
                 		 
                   }
         }
