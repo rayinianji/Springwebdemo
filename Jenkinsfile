@@ -6,17 +6,25 @@ pipeline {
         stage('SCM CheckOut')
         {
 
-            echo 'SCM check out stage'
+           steps {
+           
+                   		 echo 'SCM check out stage'
+                  }
+            
         }
         stage('Package Build')
         {
-
-            echo ' Package Build Stage '
+           steps {
+           
+                   		 echo 'SCM check out stage'
+                  }
         }
         stage('Deployment')
         {
-
-            echo  'Deployment Stage'
+           steps {
+           
+                   		 echo 'SCM check out stage'
+                  }
         }
 
     }
